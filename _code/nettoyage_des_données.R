@@ -11,7 +11,7 @@ Data <- read_csv("_data/fake_electoral_data_qc.csv")
 
 # 1 - Nettoyage des données ----
 
-Data_clean <- Data |> 
+Data_clean <- Data |>   
   rename(id          = ID,
          election    = "Année Électorale",
          genre       = Genre,
