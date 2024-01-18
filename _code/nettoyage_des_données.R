@@ -23,8 +23,7 @@ Data_clean <- Data |>
          pays        = "Pays Naissance",
          ideo        = "Idéologie Gauche-Droite",
          immig       = "Position Immigration",
-         langue_ideo = "Position Langue Française"
-         )
+         langue_ideo = "Position Langue Française")
 
 
 # Data %>%
